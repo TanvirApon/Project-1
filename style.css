@@ -76,8 +76,10 @@ body {
 .leftcontainer .aboutheading .paraone{
 
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 22px;
     margin-bottom: 10px;
+    /* letter-spacing: 5px; */
+    line-height: 1.6;
 
 
 }
