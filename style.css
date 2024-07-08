@@ -1,0 +1,158 @@
+/* Some Default CSS style */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+body {
+    font-family: Geneva, Verdana, sans-serif;
+    background-color: white;
+    
+  }
+
+.clearfix::after{
+
+     content: "";
+     clear: both;
+     display: table;
+
+}
+
+
+
+/* About Us starts from here */
+
+.Aboutus{
+
+  width:1000px;
+   
+   
+}
+
+
+
+/* About us Ends here */
+
+
+
+/* left container starts from here */
+
+.leftcontainer{
+ 
+    /* border-style: outset; */
+    float: left;
+    width: 60%;
+
+
+}
+
+.leftcontainer .aboutimage{
+
+ float: left;
+ width: 40%;
+ 
+
+
+}
+
+.leftcontainer .aboutheading{
+
+    float: left;
+    width: 60%;
+  
+
+
+}
+
+.leftcontainer .aboutheading .paraone{
+
+    font-size: 20px;
+
+
+}
+
+.leftcontainer .para{
+
+    color:#515152;
+    
+    font-size: 15px;
+
+
+}
+
+.leftcontainer .aboutheading .paratwo{
+
+    color:#6bb8ff;
+    margin-top: 10px;
+
+
+}
+
+
+/* left container style ends here */
+
+
+/* mid container style start from here */
+
+/* .midcontainer{
+
+  float: left;
+
+}
+
+
+.midcontainer .vertical hr{
+
+  border-left: 4px solid black;
+  float: left; 
+  height: 500px;
+
+} */
+
+/* mid container ends here */
+
+
+
+
+/* right container style starts from here */
+
+.rightcontainer{
+
+    float: left;
+    width: 40%;
+  
+  }
+
+.rightcontainer .vertical {
+
+    border-left: 4px solid #dee1e3;
+    float: left; 
+    height: 400px;
+    margin-left: 10px;
+  
+  }
+
+  .rightcontainer .imagetitle{
+
+     margin-top: 15px;
+
+  }
+
+  .rightcontainer .imagetitle .p1{
+
+    padding: 10px;
+
+  }
+ 
+  .rightcontainer .vertical .info1{
+
+    padding:10px;
+    margin-left: 12px;
+    color:#515152;
+
+
+  }
+
+
+/* right container style ends here */
