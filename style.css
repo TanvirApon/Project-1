@@ -26,6 +26,8 @@ body {
 .Aboutus{
 
   width:1000px;
+  padding-left: 10px;
+  
 }
 
 .Aboutus h2{
@@ -48,6 +50,7 @@ body {
     /* border-style: outset; */
     float: left;
     width: 60%;
+   
 
 
 }
@@ -131,20 +134,18 @@ body {
 
 .rightcontainer{
 
-    float: left;
+    border-left: 4px solid #dee1e3;
+    float: left; 
+    height: 400px;
     width: 40%;
 
   
   }
 
-.rightcontainer .vertical {
+/* .rightcontainer .vertical {
 
-    border-left: 4px solid #dee1e3;
-    float: left; 
-    height: 400px;
-    margin-left: 10px;
-  
-  }
+
+  } */
 
   .rightcontainer .imagetitle{
 
@@ -152,16 +153,27 @@ body {
 
   }
 
+  
+  .rightcontainer .imagetitle img{
+
+    float: left;
+
+ }
+
   .rightcontainer .imagetitle .p1{
 
-    padding: 10px;
+    float: left;
+    margin-left: 10px;
+   
+
+
 
   }
  
-  .rightcontainer .vertical .info1{
+  .rightcontainer .info1{
 
     padding:10px;
-    margin-left: 12px;
+    /* margin-left: 12px; */
     color:#515152;
 
 
