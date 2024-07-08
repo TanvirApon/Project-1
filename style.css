@@ -26,8 +26,13 @@ body {
 .Aboutus{
 
   width:1000px;
-   
-   
+}
+
+.Aboutus h2{
+
+    margin-bottom: 20px;;
+
+
 }
 
 
@@ -51,6 +56,9 @@ body {
 
  float: left;
  width: 40%;
+ margin-bottom: 10px;
+
+ 
  
 
 
@@ -68,6 +76,8 @@ body {
 .leftcontainer .aboutheading .paraone{
 
     font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
 
 
 }
@@ -76,7 +86,7 @@ body {
 
     color:#515152;
     
-    font-size: 15px;
+    font-size: 14px;
 
 
 }
@@ -84,7 +94,7 @@ body {
 .leftcontainer .aboutheading .paratwo{
 
     color:#6bb8ff;
-    margin-top: 10px;
+    margin-left: 20px;
 
 
 }
@@ -121,6 +131,7 @@ body {
 
     float: left;
     width: 40%;
+
   
   }
 
