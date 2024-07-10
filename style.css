@@ -43,16 +43,44 @@ body {
 
  color: white;
  padding-top: 10px;
+ position: relative;
+ 
   
 }
+.navbar .clearfix .sub-navbar {
+
+ padding-left: 300px;
+ margin-top:40px;
+ }
+
+
+.navbar .clearfix .sub-navbar .nav{
+ 
+ float: left;
+ padding-left: 30px;
+ height: 200px;
+
+}
+
+.navbar .clearfix .sub-navbar .nav:hover{
+ background-color: #f7692d;
+
+}
+
+.navbar .clearfix .sub-navbar .nav a{
+ color: white;
+text-decoration: none;
+
+}
+
 
 
 .navbar .clearfix .logo .logo-head  {
 
-  width: auto;
-  height: auto;
-  padding-top: 34px;
-  z-index: -1;
+  position: absolute;
+  top: 50px; 
+  left: 23px;
+  
  
  
    
@@ -63,6 +91,7 @@ body {
 
   /* background-image: url('images/logo.png'); */
   float: left;
+  position: absolute;
 
 
 }
