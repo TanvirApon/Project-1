@@ -1,7 +1,6 @@
 /* Some Default CSS style */
 * {
   box-sizing: border-box;
-  margin: 0 auto;
 
 
 }
@@ -34,8 +33,9 @@ body {
 .navbar {
 
   background-color: black;
-  width: 100%;
-  height: 70px;
+  /* width: 100%; */
+  height: 80px;
+  position:relative
 
 }
 
@@ -47,43 +47,25 @@ body {
  
   
 }
-.navbar .clearfix .sub-navbar {
-
- padding-left: 300px;
- margin-top:40px;
- }
-
-
-.navbar .clearfix .sub-navbar .nav{
- 
- float: left;
- padding-left: 30px;
- height: 200px;
-
-}
-
-.navbar .clearfix .sub-navbar .nav:hover{
- background-color: #f7692d;
-
-}
-
-.navbar .clearfix .sub-navbar .nav a{
- color: white;
-text-decoration: none;
-
-}
-
-
 
 .navbar .clearfix .logo .logo-head  {
 
   position: absolute;
   top: 50px; 
-  left: 23px;
-  
- 
- 
-   
+  left: 23px; 
+ }
+
+ .navbar .clearfix .logo .logo-head  .logo-bold {
+
+  font-weight:bold;
+  float: left;
+
+ }
+
+ .navbar .clearfix .logo .logo-head  .non-bold {
+
+  float: left;
+
  }
 
 
@@ -91,25 +73,72 @@ text-decoration: none;
 
   /* background-image: url('images/logo.png'); */
   float: left;
-  position: absolute;
+
+}
+
+.navbar .clearfix .sub-nav{
+ float: left;
+ width: 900px;
+ position:absolute;
+ top:20px;
+ left: 450px;
+
+}
+
+ 
+
+
+.navbar .clearfix .sub-nav .nav-items li{
+  
+  list-style-type: none;
+
 
 
 }
 
 
 
-.navbar .clearfix .logo .dream{
- 
+.navbar .clearfix .sub-nav .nav-items li a{
+
+  display: block;
   float: left;
   color: white;
-  padding-top:40px;
-  z-index:2;
-
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 
 }
 
+.navbar .clearfix .sub-nav .nav-items li a:hover{
 
+  background-color: #f7692d;
 
+}
+
+.navbar .num-container{
+
+  color: white;
+  float: left;
+  background-color: #2af6fa;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  align-items: center;
+}
+
+.navbar .num-container img{
+
+  float: left;
+
+}
+
+.navbar .num-container .number{
+
+  float: left;
+  font-weight: bold; 
+
+}
 
 
 
@@ -219,83 +248,11 @@ text-decoration: none;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About Us starts from here */
 
 .Aboutus {
 
-  width: 1000px;
-  padding-left: 10px;
+  width: 1060px;
 
 }
 
@@ -445,6 +402,7 @@ text-decoration: none;
   padding: 10px;
   margin-left: 14px;
   color: #515152;
+  text-align: justify;
 
 
 }
