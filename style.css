@@ -9,7 +9,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   margin: 0;
-  padding: 0;
   /* width: 1060px; */
 
 }
@@ -36,69 +35,55 @@ body {
 
   background-color: black;
   /* width: 100%; */
-  /*   */
-  position:relative
+  position: relative;
 
 }
 
-.navbar .clearfix a{
+.logo-container{
+ 
+ position: relative;
 
+
+}
+.navbar .clearfix a{
   text-decoration: none;
   color: white;
 
 }
-.navbar .clearfix .logo  {
-
+.navbar .clearfix .logo {
  color: white;
  padding-top: 10px;
- position: relative;
- 
-  
+ float: left;
 }
 
-.navbar .clearfix .logo .logo-head  {
-
+.navbar .clearfix .logo .logo-head {
   position: absolute;
-  top: 50px; 
-  left: 23px; 
+  top: 50px;
+  left: 25px;
  }
 
- .navbar .clearfix .logo .logo-head  .logo-bold {
-
+ .navbar .clearfix .logo .logo-head .logo-bold {
   font-weight:bold;
   float: left;
-
  }
 
- .navbar .clearfix .logo .logo-head  .non-bold {
-
+ .navbar .clearfix .logo .logo-head .non-bold {
   float: left;
-
  }
 
-
-.navbar .clearfix .logo img {
-
-  /* background-image: url('images/logo.png'); */
-  float: left;
-
-}
 
 .navbar .clearfix .sub-nav{
  float: left;
  width: 500px;
- margin-top: 10px;
- margin-left: 250px;
+ margin-top: 20px;
+ margin-left: 215px;
 
 }
-
- 
 
 
 .navbar .clearfix .sub-nav .nav-items li{  
   list-style-type: none;
 }
-
 
 
 .navbar .clearfix .sub-nav .nav-items li a{
@@ -121,32 +106,28 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
-  padding: 10px;
+  padding: 15px;
   align-items: center;
 }
 
 .navbar .num-container img{
   float: left;
   align-items: center;
-  vertical-align: middle;
-  display: table-cell;
+  height: 16px;
+
 }
 
 .navbar .num-container .number {
-
   float: left;
   font-weight: bold; 
-  
-
 }
 
 .navbar .num-container .number a{
-
   float: left;
   font-weight: bold; 
+  font-size: 12px;
   text-decoration: none;
-  color: white;
-
+  color:#f7faff;
 }
 /* navbar section ends here */
 
@@ -155,21 +136,16 @@ body {
 /* slider starts from here */
 
 .slider {
-
   width: 100%;
-
-
 }
 
 
 .slider-image {
-
   background: url('images/slider-bg.jpg') no-repeat ; 
   background-size: 100% 100%;
   height: 350px;
   position: relative;
-  margin-bottom: 3px;
-
+  margin-bottom: 70px;
 }
 
 /* .slider img {
@@ -182,7 +158,6 @@ body {
 
 
 .slider-image .para {
-
   position: absolute;
   top: 120px;
   background-color: #e3e6d5;
@@ -193,17 +168,13 @@ body {
   /* margin-left: 12px; */
   padding: 20px;
   font-size: 12px;
-
-
 }
 
 .slider-image .container .para .slider-para-header {
-
   margin-bottom: 10px;
   color: black;
   font-weight: bold;
   font-size: 14px;
-
 }
 
 /* .slider .para .slider-para{
@@ -226,41 +197,33 @@ body {
 .slider-image .para .slider-para .clearfix .icon {
   float: right;
   padding-top: 10px;
-
 }
 
 .slider .para .slider-para .clearfix a {
   text-decoration: none;
-
 }
 /* slider ends here */
 
 /* main-heading section starts from here */
 
 .main-heading{
-
  position: relative;
-
-
 }
 
 .main-heading .intro{
-
   text-align: center;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 45px;
   padding-top: 30px;
-  margin-bottom: 20px;
- 
+  margin-bottom: 15px;
 }
 
 
 .main-heading .intro-para{
-
-margin-bottom: 70px;
+margin-bottom: 120px;
 text-align: center; 
 color: #78827a;
-font-size: 17px;
+font-size: 16px;
 padding-right: 20px;
 }
 
@@ -268,65 +231,123 @@ padding-right: 20px;
 
  position: absolute;
  right: 0;
- top: -14px;
+ top: -84px;
  margin-bottom: 50px;
 
+}
+
+.main-heading .sidebar .black-sidebar{
+
+  margin-bottom: 40px;
+}
+
+.main-heading .sidebar .black-sidebar ul li a  {
+ 
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  padding: 10px 25px;
+  margin-bottom: 2px;
+  
+}
+
+.main-heading .sidebar .black-sidebar ul li a span{
+  color: #ededed;
+  font-size: 12px;
+  line-height: 10px;
+  padding-left:5px ;
+
+}
+
+
+.main-heading .sidebar .black-sidebar ul li a img{
+
+  height: 15px;
+  vertical-align: middle;
+ 
+}
+
+.main-heading .sidebar .black-sidebar ul li {
+
+  list-style: none;
+
+
+}
+
+
+.main-heading .sidebar .orange-sidebar ul li a  {
+ 
+  text-decoration: none;
+  display: block;
+  background-color:  #f7692d;
+  padding: 10px 25px;
+  margin-bottom: 2px;
+  
+}
+
+.main-heading .sidebar .orange-sidebar ul li a span{
+  color: #ededed;
+  font-size: 12px;
+  line-height: 10px;
+  padding-left:5px ;
+
+}
+
+
+.main-heading .sidebar .orange-sidebar ul li a img{
+
+  height: 15px;
+  vertical-align: middle;
+ 
+}
+
+.main-heading .sidebar .orange-sidebar ul li {
+
+  list-style: none;
+
+
+}
+
+
+
+
+/* .main-heading .sidebar ul li span{
+  background-color: black;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 2px;
 }
 
 .main-heading .sidebar ul li  {
  
   list-style: none;
-  background-color: black;
-  display: block;
-  padding: 10px 20px;
   margin-bottom: 2px;
- 
- 
- 
+  
 }
 
 .main-heading .sidebar ul li img{
-align-items: center;
+vertical-align: middle;
+height: 25px;
+
 
 }
+.main-heading .sidebar ul a{
 
-.main-heading .sidebar ul li span a{
- 
   text-decoration: none;
-  color: white;
-  align-items: center;
-}
-
-.main-heading .sidebar ul li span{
-
-  padding: 2px;
-
 
 }
 
-/* css code start for empty section */
-.main-heading .sidebar ul .empty {
-
-  list-style: none;
-  background-color: white;
-  display: block;
-  padding: 10px 20px;
-  margin-bottom: 2px;
-  text-align: justify;
-}
-/* css code ends here for empty section */
+.main-heading .sidebar ul a li span {
+ 
+ 
+  color: #ededed;
+  margin-left: 15px;
+  font-size: 12px;
+} */
 
 
 
-/* css code start for orange section */
-.main-heading .sidebar ul .orange{
 
-  list-style: none;
-  background-color: #f7692d;
-  display: block;
-  padding: 10px 20px;
-  margin-bottom: 2px;
-}
 /* css code ends here for orange section */
 
 
@@ -336,10 +357,8 @@ align-items: center;
 
 /* Featured Project starts from here */
 .featured-project{
-
   margin-bottom: 60px;
-
-
+  border-bottom: 0.5px;
 
 }
 
@@ -347,56 +366,80 @@ align-items: center;
 
   float: left;
   vertical-align: middle;
-
+  font-weight: bold;
+  font-size: 18px;
+  color:#282b29;
 }
 
 
 .featured-project .residential{
 
   float: left;
-  background: url("images/residential.png") -24px 0px;
+  background: url("images/residential.png");
   background-repeat: no-repeat;
-  left: 24px;
-  width: 48px;
+  height: 40px;
+  width: 24px;
+  margin-left:20px ;
+  vertical-align: middle;
+}
+
+
+.featured-project .residential .residential-head{
+  float: left;
+  margin-left: 30px;
+  padding-top: 9px;
+
+}
+
+
+
+.featured-project .residential:hover{
+  background: url("images/residential.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  background-position: -24px 0px; 
   margin-left:20px ;
   vertical-align: middle;
 }
 
 
 
-/* .featured-project .residential img{
-  float: left;
-  width: -50%;
+.featured-project .residential .residential-head:hover{
+  color: #2af6fa;
 
-} */
-
-
-
-.featured-project .residential .residential-head{
-  
-  float: left;
-  padding-left:30px;
-  vertical-align: middle;
-  
 }
 
 .featured-project .commercial{
-
   float: left;
-  background: url("images/commercial.png") -24px 0px;
+  background: url("images/commercial.png");
   background-repeat: no-repeat;
-  left: 24px;
-  width: 48px;
-  margin-left:80px ;
+  background-position: -24px 6px;
+  height: 40px; 
+  margin-left:100px ;
   vertical-align: middle;
+ 
+}
+
+.featured-project .commercial:hover{
+  background: url("images/commercial.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 24px;    
+  margin-left: 100px;
+  vertical-align: middle;
+ 
 }
 
 
 .featured-project .commercial .commercial-head{
-
   float: left;
-  padding-left:30px;
-  vertical-align: middle;
+  margin-left: 30px;
+  padding-top: 9px;
+
+}
+
+.featured-project .commercial .commercial-head:hover{
+ color: #2af6fa;
 
 }
 
@@ -406,28 +449,29 @@ align-items: center;
 /* Sidebar starts from here */
 
 .card{
-  
    margin-bottom: 30px;
-
-
-
 }
 
 .card .building-1{
-
  float: left;
-
 }
 
 
 .card .building-2{
+  float: left;
+  padding-left:4px;
+ }
 
+ .card .building-3{
+  float: left;
+  padding-left:4px;
+ }
+
+ .card .building-4{
   float: left;
   padding-left:4px;
  
- 
  }
-
 
 
 /* Sidebar ends from here */
