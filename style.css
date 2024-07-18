@@ -57,6 +57,7 @@ body {
 }
 
 .navbar .clearfix .logo .logo-head {
+  float: left;
   position: absolute;
   top: 50px;
   left: 25px;
@@ -358,7 +359,7 @@ height: 25px;
 /* Featured Project starts from here */
 .featured-project{
   margin-bottom: 60px;
-  border-bottom: 1px solid #ddd;
+
 }
 
 
@@ -387,11 +388,11 @@ height: 25px;
 }
 
 
-.featured-project .residential .residential-head{
+.featured-project .residential span{
   float: left;
-  margin-left: 30px;
-  padding-top: 9px;
-  padding-right: 25px;
+  margin-left: 35px;
+  padding-top: 10px;
+ 
 }
 
 
@@ -407,48 +408,47 @@ height: 25px;
 
 
 
-.featured-project .residential .residential-head:hover{
+.featured-project .residential span:hover {
   color: #2af6fa;
 
 }
 
 .featured-project .commercial{
   float: left;
-  background: url("images/commercial.png");
+  background: url("images/commercial.png") -24px 6px;
   background-repeat: no-repeat;
-  background-position: -24px 6px;
+  width: 24px;
   height: 40px; 
-  margin-left:100px ;
-  vertical-align: middle;
-  border-left: 1px solid #ddd;
+  margin-left:150px ;
+
    
 }
 
 
 .featured-project .commercial:hover{
+  float: left;
   background: url("images/commercial.png") 0 6px;
   background-repeat: no-repeat;
   height: 40px;
   width: 24px;    
-  margin-left: 100px;
-  vertical-align: middle;
- 
+  margin-left: 150px;
+
 }
 
-
-.featured-project .commercial .commercial-head{
+.featured-project .commercial span{
   float: left;
   margin-left: 30px;
-  padding-top: 9px;
+  padding-top: 12px;
 
 }
 
-.featured-project .commercial .commercial-head:hover{
+.featured-project .commercial span:hover{
  color: #2af6fa;
 
 }
 
 /* Featured Project ends here */
+
 
 
 /* Sidebar starts from here */
