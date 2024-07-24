@@ -358,10 +358,30 @@ height: 25px;
 
 /* Featured Project starts from here */
 .featured-project{
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+  border-bottom:  solid #ddd;
+ 
 
 }
+.featured-project .residential{
+  float: left;
+} 
 
+
+.featured-project .commercial{
+  float: left;
+  border-left: 2px solid #ddd;
+  margin-left:24px;
+}
+
+.featured-project .residential .residential-head{
+  float: left;
+}
+
+
+.featured-project .commercial .commercial-head{
+  float: left;
+}
 
 
 .featured-project .project-head{
@@ -375,14 +395,14 @@ height: 25px;
 }
 
 
-.featured-project .residential{
+.featured-project .residential .residential-head{
 
   float: left;
   background: url("images/residential.png");
   background-repeat: no-repeat;
   height: 40px;
   width: 24px;
-  margin-left:20px ;
+  margin-left: 35px;
   vertical-align: middle;
   
 }
@@ -390,19 +410,19 @@ height: 25px;
 
 .featured-project .residential span{
   float: left;
-  margin-left: 35px;
+  margin-left: 5px;
   padding-top: 10px;
  
 }
 
 
 
-.featured-project .residential:hover{
+.featured-project .residential .residential-head:hover{
   background: url("images/residential.png");
   background-repeat: no-repeat;
   height: 40px;
   background-position: -24px 0px; 
-  margin-left:20px ;
+  margin-left: 35px;
   vertical-align: middle;
 }
 
@@ -413,31 +433,31 @@ height: 25px;
 
 }
 
-.featured-project .commercial{
+.featured-project .commercial .commercial-head{
   float: left;
   background: url("images/commercial.png") -24px 6px;
   background-repeat: no-repeat;
   width: 24px;
   height: 40px; 
-  margin-left:150px ;
+  margin-left: 20px;
 
    
 }
 
 
-.featured-project .commercial:hover{
+.featured-project .commercial .commercial-head:hover{
   float: left;
   background: url("images/commercial.png") 0 6px;
   background-repeat: no-repeat;
   height: 40px;
   width: 24px;    
-  margin-left: 150px;
+  margin-left: 20px;
 
 }
 
 .featured-project .commercial span{
   float: left;
-  margin-left: 30px;
+  margin-left: 5px;
   padding-top: 12px;
 
 }
@@ -454,28 +474,46 @@ height: 25px;
 /* Sidebar starts from here */
 
 .card{
-   margin-bottom: 30px;
+   margin-bottom: 50px;
 }
 
 .card .building-1{
  float: left;
+ background-color:white;
 }
+
+.card .building-1 .head-1{
+  float: left;
+  font-weight: bold;
+ }
+
+ .card .building-1 .head-1 .subhead{
+  float: left;
+  font-weight: bold;
+ }
+
 
 
 .card .building-2{
   float: left;
+  background-color:white;
   padding-left:4px;
+
  }
+
 
  .card .building-3{
   float: left;
+  background-color:white;
   padding-left:4px;
+
  }
 
  .card .building-4{
   float: left;
+  background-color:white;
   padding-left:4px;
- 
+  
  }
 
 
@@ -488,6 +526,7 @@ height: 25px;
 .Aboutus {
 
   width: 1060px;
+  margin-bottom: 100px;
 
 }
 
@@ -638,6 +677,218 @@ height: 25px;
 /* right container style ends here */
 
 
-
-
 /* About us Ends here */
+
+
+
+/* footer starts from here */
+
+.footer {
+  background-image: url('images/footer-image.png'); 
+  height: 340px;
+}
+
+
+/* Testimonials starts from here */
+.footer .testimonial{
+  float: left; 
+}
+
+.footer .testimonial .head{
+  color: white;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+
+.footer .testimonial .testimonial-para{
+ height: 150px;
+ width: 250px;
+ color: white;
+ padding-top: 20px;
+ text-align: left;
+ font-size: 14px;
+ white-space: 2px;
+ color: #8a8a97;
+ text-align: justify;
+ margin-bottom: 10px;
+}
+
+.footer .testimonial .ketty{
+  color: white;
+  font-size: 14px;
+}
+
+/* Testimonials ends from here */
+
+
+/* Quick-Links starts from here */
+.footer .quick-links{
+  float: left;
+  height: 250px;
+  width: 250px;
+  color: white;
+  padding-left:65px;
+  padding-top:50px;
+
+
+}
+
+.footer .quick-links .heading{
+  float: left;
+  line-height: 34px;
+}
+
+.footer .quick-links  .quick-image{
+  float: left;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+
+.footer .quick-links .links{
+  margin-top: 10px;
+}
+
+.footer .quick-links .links .images{
+ float: left;
+ background-image: url('images/play-small-grey.png');
+ background-repeat: no-repeat;
+ 
+ 
+}
+
+.footer .quick-links .links .images:hover{
+  float: left;
+  background-image: url('images/play-small.png');
+  background-repeat: no-repeat;
+ }
+
+.footer .quick-links .links .images .image-heading{
+  float: left;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 10px;
+  color: #8a8a97;
+  margin-bottom: 12px;
+ }
+
+ .footer .quick-links .links .images .image-heading:hover{
+  color:white;
+ }
+
+ /* Quick-Links ends here */
+ 
+
+ /* Address starts from here */
+.footer .address{
+  float: left;
+  height: 250px;
+  width: 250px;
+  color: white;
+  padding-top: 45px;
+  padding-left: 50px;
+
+}
+
+.footer .address .heading{
+  float: left;
+  line-height: 34px;
+}
+
+.footer .address  .address-image{
+  float: left;
+  vertical-align: middle;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.footer .address  .address-details .address-heading{
+
+  margin-bottom: 20px;
+  font-weight: bold;
+  
+}
+
+.footer .address  .address-details .address-para{
+
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer .address  .contact-details {
+
+  text-align: justify;
+  font-size: 14px;
+}
+
+
+ /* Address starts from here */
+.footer .subscribe{
+
+  float:left;
+  height: 250px;
+  width: 300px;
+  color: white;
+  padding-top: 45px;
+  padding-left: 85px;
+}
+
+.footer .subscribe input{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  
+}
+
+
+
+.footer .subscribe a button{
+  background-color: aqua;
+  border-radius: 2px;
+  color:white;   
+  height: 35px;
+  width: 90px;
+  border: none;
+  margin-bottom: 45px;
+}
+
+
+.footer .subscribe .social .social-icon .facebook img{
+float: left;
+background: url("images/icon-facebook.png") no-repeat;
+
+
+}
+
+.footer .subscribe .social .social-icon .twitter{
+
+  float: left;
+  background-image:url("images/twitter-icon.png");
+  background-repeat: no-repeat;
+  
+}
+
+.footer .subscribe .social .social-icon .linkdln{
+
+  float: left;
+  
+}
+
+.footer .subscribe .social .social-icon .email{
+
+  float: left;
+  
+}
+
+.footer .subscribe .social .social-icon .edit{
+
+  float: left;
+  
+}
+
+
+/* footer ends here */
