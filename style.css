@@ -359,8 +359,8 @@ height: 25px;
 /* Featured Project starts from here */
 .featured-project{
   margin-bottom: 80px;
-  border-bottom:  solid #ddd;
- 
+  border-bottom: 1px solid #ddd;
+  width: 530px;
 
 }
 .featured-project .residential{
@@ -371,7 +371,7 @@ height: 25px;
 .featured-project .commercial{
   float: left;
   border-left: 2px solid #ddd;
-  margin-left:24px;
+  margin-left:100px;
 }
 
 .featured-project .residential .residential-head{
@@ -402,7 +402,7 @@ height: 25px;
   background-repeat: no-repeat;
   height: 40px;
   width: 24px;
-  margin-left: 35px;
+  margin-left: 20px;
   vertical-align: middle;
   
 }
@@ -410,28 +410,20 @@ height: 25px;
 
 .featured-project .residential span{
   float: left;
-  margin-left: 5px;
+  margin-left: 30px;
   padding-top: 10px;
  
 }
-
-
 
 .featured-project .residential .residential-head:hover{
   background: url("images/residential.png");
   background-repeat: no-repeat;
   height: 40px;
   background-position: -24px 0px; 
-  margin-left: 35px;
-  vertical-align: middle;
+  margin-left: 20px;
+  color:#2af6fa;
 }
 
-
-
-.featured-project .residential span:hover {
-  color: #2af6fa;
-
-}
 
 .featured-project .commercial .commercial-head{
   float: left;
@@ -452,12 +444,13 @@ height: 25px;
   height: 40px;
   width: 24px;    
   margin-left: 20px;
+  color:#2af6fa;
 
 }
 
 .featured-project .commercial span{
   float: left;
-  margin-left: 5px;
+  margin-left: 30px;
   padding-top: 12px;
 
 }
@@ -480,14 +473,27 @@ height: 25px;
 .card .building-1{
  float: left;
  background-color:white;
+padding: 10px;
+
 }
 
-.card .building-1 .head-1{
+
+.card .building-1 img{
+  position:relative;
+}
+
+.card .building-1 .heading{
+
+  margin-bottom: 10px;
+
+}
+
+.card .building-1 .heading .head-1{
   float: left;
   font-weight: bold;
  }
 
- .card .building-1 .head-1 .subhead{
+ .card .building-1 .heading .head-1 .subhead{
   float: left;
   font-weight: bold;
  }
@@ -498,6 +504,7 @@ height: 25px;
   float: left;
   background-color:white;
   padding-left:4px;
+  
 
  }
 
@@ -702,13 +709,9 @@ height: 25px;
 
 
 .footer .testimonial .testimonial-para{
- height: 150px;
- width: 250px;
- color: white;
+ width: 200px;
  padding-top: 20px;
- text-align: left;
- font-size: 14px;
- white-space: 2px;
+ font-size: 12px;
  color: #8a8a97;
  text-align: justify;
  margin-bottom: 10px;
@@ -716,8 +719,30 @@ height: 25px;
 
 .footer .testimonial .ketty{
   color: white;
-  font-size: 14px;
+  font-size: 12px;
 }
+
+.footer .testimonial .last .hr{
+float: left;
+color: white;
+border-bottom: 2px solid #ddd;
+
+}
+
+.footer .testimonial .last .btn-image .left{
+float: right;
+}
+
+.footer .testimonial .last .btn-image .left a img{
+  float: right;
+  transform: rotate('-180');
+
+}
+
+.footer .testimonial .last .btn-image .right{
+  float: right; 
+  background-image: url("images/footer-image.png");
+  }
 
 /* Testimonials ends from here */
 
@@ -725,7 +750,6 @@ height: 25px;
 /* Quick-Links starts from here */
 .footer .quick-links{
   float: left;
-  height: 250px;
   width: 250px;
   color: white;
   padding-left:65px;
@@ -739,7 +763,7 @@ height: 25px;
   line-height: 34px;
 }
 
-.footer .quick-links  .quick-image{
+.footer .quick-links .quick-image{
   float: left;
   vertical-align: middle;
   padding-left: 10px;
@@ -748,32 +772,32 @@ height: 25px;
 
 .footer .quick-links .links{
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.footer .quick-links .links .images{
+.footer .quick-links .links a .images{
  float: left;
  background-image: url('images/play-small-grey.png');
  background-repeat: no-repeat;
  
- 
 }
 
-.footer .quick-links .links .images:hover{
+.footer .quick-links .links a .images:hover{
   float: left;
   background-image: url('images/play-small.png');
   background-repeat: no-repeat;
  }
 
-.footer .quick-links .links .images .image-heading{
+.footer .quick-links .links a .images .image-heading{
   float: left;
   padding-left: 10px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 10px;
   color: #8a8a97;
-  margin-bottom: 12px;
+
  }
 
- .footer .quick-links .links .images .image-heading:hover{
+ .footer .quick-links .links a .images .image-heading:hover{
   color:white;
  }
 
@@ -783,8 +807,7 @@ height: 25px;
  /* Address starts from here */
 .footer .address{
   float: left;
-  height: 250px;
-  width: 250px;
+  width: 200px;
   color: white;
   padding-top: 45px;
   padding-left: 50px;
@@ -807,20 +830,18 @@ height: 25px;
 
   margin-bottom: 20px;
   font-weight: bold;
+  font-size: 14px;
   
 }
 
 .footer .address  .address-details .address-para{
-
-  text-align: justify;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .footer .address  .contact-details {
 
-  text-align: justify;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
@@ -857,12 +878,17 @@ height: 25px;
 }
 
 
-.footer .subscribe .social .social-icon .facebook img{
+.footer .subscribe .social .social-icon .facebook{
 float: left;
 background: url("images/icon-facebook.png") no-repeat;
 
-
 }
+
+.footer .subscribe .social .social-icon .facebook{
+  float: left;
+  background: url("images/icon-facebook.png") no-repeat;
+  
+  }
 
 .footer .subscribe .social .social-icon .twitter{
 
