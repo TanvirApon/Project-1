@@ -794,7 +794,6 @@ float: right;
   font-size: 14px;
   line-height: 10px;
   color: #8a8a97;
-
  }
 
  .footer .quick-links .links a .images .image-heading:hover{
@@ -827,11 +826,9 @@ float: right;
 }
 
 .footer .address  .address-details .address-heading{
-
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
-  
 }
 
 .footer .address  .address-details .address-para{
@@ -840,14 +837,12 @@ float: right;
 }
 
 .footer .address  .contact-details {
-
   font-size: 12px;
 }
 
 
  /* Address starts from here */
 .footer .subscribe{
-
   float:left;
   height: 250px;
   width: 300px;
@@ -862,10 +857,7 @@ float: right;
   height: 40px;
   width: 200px;
   text-align: center;
-  
 }
-
-
 
 .footer .subscribe a button{
   background-color: aqua;
@@ -877,44 +869,18 @@ float: right;
   margin-bottom: 45px;
 }
 
+.footer .subscribe .social ul li{
 
-.footer .subscribe .social .social-icon .facebook{
-float: left;
-background: url("images/icon-facebook.png") no-repeat;
+  list-style: none;
+}
+
+.footer .subscribe .social ul li .fb{
+  text-decoration: none;
+  background-image: url("images/facebook-icon.png"); 
+
 
 }
 
-.footer .subscribe .social .social-icon .facebook{
-  float: left;
-  background: url("images/icon-facebook.png") no-repeat;
-  
-  }
-
-.footer .subscribe .social .social-icon .twitter{
-
-  float: left;
-  background-image:url("images/twitter-icon.png");
-  background-repeat: no-repeat;
-  
-}
-
-.footer .subscribe .social .social-icon .linkdln{
-
-  float: left;
-  
-}
-
-.footer .subscribe .social .social-icon .email{
-
-  float: left;
-  
-}
-
-.footer .subscribe .social .social-icon .edit{
-
-  float: left;
-  
-}
 
 
 /* footer ends here */
