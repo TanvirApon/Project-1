@@ -472,54 +472,29 @@ height: 25px;
 
 .card .building-1{
  float: left;
- background-color:white;
-padding: 10px;
+ width: 25%;
 
 }
 
-
-.card .building-1 img{
-  position:relative;
-}
-
-.card .building-1 .heading{
-
-  margin-bottom: 10px;
-
-}
-
-.card .building-1 .heading .head-1{
-  float: left;
-  font-weight: bold;
- }
-
- .card .building-1 .heading .head-1 .subhead{
-  float: left;
-  font-weight: bold;
- }
 
 
 
 .card .building-2{
   float: left;
-  background-color:white;
-  padding-left:4px;
-  
+  width: 25%;
 
  }
 
 
  .card .building-3{
   float: left;
-  background-color:white;
-  padding-left:4px;
+  width: 25%;
 
  }
 
  .card .building-4{
   float: left;
-  background-color:white;
-  padding-left:4px;
+  width: 25%;
   
  }
 
@@ -698,7 +673,8 @@ padding: 10px;
 
 /* Testimonials starts from here */
 .footer .testimonial{
-  float: left; 
+  float: left;
+  width: 30%; 
 }
 
 .footer .testimonial .head{
@@ -724,23 +700,26 @@ padding: 10px;
 
 .footer .testimonial .last hr{
 float: left;
-width: 135px;
+width: 130px;
 color: #8a8a97;
 }
 
+.footer .testimonial .last .btn-image {
+  float: left;
+}
+
 .footer .testimonial .last .btn-image .left{
-float: right;
+ margin-left: 8px;
+ float: left;
 }
 
 .footer .testimonial .last .btn-image .left a img{
-  float: right;
-  transform: rotate('-180');
+  float: left;
 
 }
 
 .footer .testimonial .last .btn-image .right{
-  float: right; 
-  background-image: url("images/footer-image.png");
+  float: left; 
   }
 
 /* Testimonials ends from here */
@@ -749,10 +728,10 @@ float: right;
 /* Quick-Links starts from here */
 .footer .quick-links{
   float: left;
-  width: 250px;
   color: white;
   padding-left:65px;
   padding-top:50px;
+  width: 20%;
 
 
 }
@@ -805,10 +784,10 @@ float: right;
  /* Address starts from here */
 .footer .address{
   float: left;
-  width: 200px;
   color: white;
   padding-top: 45px;
   padding-left: 50px;
+  width: 20%;
 
 }
 
@@ -843,11 +822,10 @@ float: right;
  /* Address starts from here */
 .footer .subscribe{
   float:left;
-  height: 250px;
-  width: 300px;
   color: white;
   padding-top: 45px;
   padding-left: 85px;
+  width: 30%;
 }
 
 .footer .subscribe input{
