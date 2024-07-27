@@ -722,11 +722,10 @@ padding: 10px;
   font-size: 12px;
 }
 
-.footer .testimonial .last .hr{
+.footer .testimonial .last hr{
 float: left;
-color: white;
-border-bottom: 2px solid #ddd;
-
+width: 135px;
+color: #8a8a97;
 }
 
 .footer .testimonial .last .btn-image .left{
@@ -869,18 +868,133 @@ float: right;
   margin-bottom: 45px;
 }
 
-.footer .subscribe .social ul li{
+.footer .subscribe .social .social-icon{
+margin-left: -40px;
+}
+
+
+.footer .subscribe .social .social-icon ul li{
 
   list-style: none;
 }
 
-.footer .subscribe .social ul li .fb{
+.footer .subscribe .social .social-icon ul li .fb{
+  float: left;
   text-decoration: none;
-  background-image: url("images/facebook-icon.png"); 
+  background-image: url("images/facebook-icon.png");
+  background-repeat: no-repeat;
+  background-position: -32px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+}
 
+.footer .subscribe .social .social-icon ul li .fb:hover{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/facebook-icon.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+}
 
+.footer .subscribe .social .social-icon ul li .tw{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/twitter-icon.png");
+  background-repeat: no-repeat;
+  background-position: -32px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
+}
+
+.footer .subscribe .social .social-icon ul li .tw:hover{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/twitter-icon.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
+}
+
+.footer .subscribe .social .social-icon ul li .lk{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/linked-in-icon.png");
+  background-repeat: no-repeat;
+  background-position: -32px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
+}
+
+.footer .subscribe .social .social-icon ul li .lk:hover{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/linked-in-icon.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
+}
+
+.footer .subscribe .social .social-icon ul li .em{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/mail-icon.png");
+  background-repeat: no-repeat;
+  background-position: -32px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
+}
+
+.footer .subscribe .social .social-icon ul li .em:hover{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/mail-icon.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
 }
 
 
+.footer .subscribe .social .social-icon ul li .ed{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/edit-icon.png");
+  background-repeat: no-repeat;
+  background-position: -32px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
+}
+
+.footer .subscribe .social .social-icon ul li .ed:hover{
+  float: left;
+  text-decoration: none;
+  background-image: url("images/edit-icon.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px; 
+  height: 30px;
+  display: block;
+  width: 30px;
+  margin-left: 3px;
+}
 
 /* footer ends here */
