@@ -464,42 +464,24 @@ height: 25px;
 
 
 
-/* Sidebar starts from here */
+/* Card-Option starts from here */
 
-.card{
-   margin-bottom: 50px;
+.card-option{
+   margin-bottom: 10px;
 }
 
-.card .building-1{
- float: left;
- width: 25%;
+.card-option .card{
+  float: left;
+  width: 25%;
+  height: 500px;
+
 
 }
 
 
 
 
-.card .building-2{
-  float: left;
-  width: 25%;
-
- }
-
-
- .card .building-3{
-  float: left;
-  width: 25%;
-
- }
-
- .card .building-4{
-  float: left;
-  width: 25%;
-  
- }
-
-
-/* Sidebar ends from here */
+/* Card-Option ends from here */
 
 
 
@@ -674,7 +656,7 @@ height: 25px;
 /* Testimonials starts from here */
 .footer .testimonial{
   float: left;
-  width: 30%; 
+  width: 20%; 
 }
 
 .footer .testimonial .head{
@@ -691,6 +673,7 @@ height: 25px;
  color: #8a8a97;
  text-align: justify;
  margin-bottom: 10px;
+ line-height:20px;
 }
 
 .footer .testimonial .ketty{
@@ -702,6 +685,7 @@ height: 25px;
 float: left;
 width: 130px;
 color: #8a8a97;
+margin-top: 13px;
 }
 
 .footer .testimonial .last .btn-image {
@@ -711,16 +695,20 @@ color: #8a8a97;
 .footer .testimonial .last .btn-image .left{
  margin-left: 8px;
  float: left;
+
 }
 
 .footer .testimonial .last .btn-image .left a img{
   float: left;
+  border-radius: 65%;
 
 }
 
 .footer .testimonial .last .btn-image .right{
   float: left; 
+  margin-left: 5px;
   }
+
 
 /* Testimonials ends from here */
 
