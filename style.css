@@ -1,9 +1,8 @@
 /* Some Default CSS style */
 * {
   box-sizing: border-box;
-
-
 }
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -12,41 +11,31 @@ body {
 }
 
 .clearfix::after {
-
   content: "";
   clear: both;
   display: table;
-
 }
 
 .container {
   width: 1000px;
   margin: 0 auto;
 }
-
 /* Default css ends here */
 
 
 /* navbar section starts from here */
-
 .navbar {
-
   background-color: black;
-  /* width: 100%; */
   position: relative;
-
 }
 
-.logo-container{
- 
+.logo-container {
  position: relative;
-
-
 }
-.navbar .clearfix a{
+
+.navbar .clearfix a {
   text-decoration: none;
   color: white;
-
 }
 .navbar .clearfix .logo {
  color: white;
@@ -59,33 +48,32 @@ body {
   position: absolute;
   top: 50px;
   left: 25px;
- }
+}
 
- .navbar .clearfix .logo .logo-head .logo-bold {
+.navbar .clearfix .logo .logo-head .logo-bold {
   font-weight:bold;
   float: left;
- }
+}
 
- .navbar .clearfix .logo .logo-head .non-bold {
+
+.navbar .clearfix .logo .logo-head .non-bold {
   float: left;
- }
+}
 
-
-.navbar .clearfix .sub-nav{
+.navbar .clearfix .sub-nav {
  float: left;
  width: 500px;
  margin-top: 20px;
  margin-left: 215px;
-
 }
 
 
-.navbar .clearfix .sub-nav .nav-items li{  
+.navbar .clearfix .sub-nav .nav-items li {  
   list-style-type: none;
 }
 
 
-.navbar .clearfix .sub-nav .nav-items li a{
+.navbar .clearfix .sub-nav .nav-items li a {
   display: block;
   float: left;
   color: white;
@@ -94,11 +82,11 @@ body {
   text-decoration: none;
 }
 
-.navbar .clearfix .sub-nav .nav-items li a:hover{
+.navbar .clearfix .sub-nav .nav-items li a:hover {
   background-color: #f7692d;
 }
 
-.navbar .num-container{
+.navbar .num-container {
   color: white;
   float: left;
   background-color: #2af6fa;
@@ -113,7 +101,6 @@ body {
   float: left;
   align-items: center;
   height: 16px;
-
 }
 
 .navbar .num-container .number {
@@ -138,7 +125,6 @@ body {
   width: 100%;
 }
 
-
 .slider-image {
   background: url('images/slider-bg.jpg') no-repeat ; 
   background-size: 100% 100%;
@@ -146,15 +132,6 @@ body {
   position: relative;
   margin-bottom: 70px;
 }
-
-/* .slider img {
-
-  width: 100%;
-  height: 400px;
-
- } */
-
-
 
 .slider-image .para {
   position: absolute;
@@ -164,7 +141,6 @@ body {
   width: 335px;
   height: 129px;
   opacity: 0.9;
-  /* margin-left: 12px; */
   padding: 20px;
   font-size: 12px;
 }
@@ -176,23 +152,6 @@ body {
   font-size: 14px;
 }
 
-/* .slider .para .slider-para{
- 
-    width: 400px;
- 
- } */
-
-
-/* .slider .para .slider-para-image{
- 
-   position:absolute;
-   bottom: 0px;
-   right:0px;
- 
- } */
-
-
-
 .slider-image .para .slider-para .clearfix .icon {
   float: right;
   padding-top: 10px;
@@ -203,13 +162,15 @@ body {
 }
 /* slider ends here */
 
+
+
 /* main-heading section starts from here */
 
-.main-heading{
+.main-heading {
  position: relative;
 }
 
-.main-heading .intro{
+.main-heading .intro {
   text-align: center;
   font-weight: bold;
   font-size: 45px;
@@ -218,7 +179,7 @@ body {
 }
 
 
-.main-heading .intro-para{
+.main-heading .intro-para {
 margin-bottom: 120px;
 text-align: center; 
 color: #78827a;
@@ -226,51 +187,40 @@ font-size: 16px;
 padding-right: 20px;
 }
 
-.main-heading .sidebar{
-
+.main-heading .sidebar {
  position: absolute;
  right: 0;
  top: -84px;
  margin-bottom: 50px;
-
 }
 
-.main-heading .sidebar .black-sidebar{
-
+.main-heading .sidebar .black-sidebar {
   margin-bottom: 40px;
 }
 
 .main-heading .sidebar .black-sidebar ul li a  {
- 
   text-decoration: none;
   display: block;
   background-color: black;
   padding: 10px 25px;
   margin-bottom: 2px;
-  
 }
 
-.main-heading .sidebar .black-sidebar ul li a span{
+.main-heading .sidebar .black-sidebar ul li a span {
   color: #ededed;
   font-size: 12px;
   line-height: 10px;
   padding-left:5px ;
-
 }
 
 
-.main-heading .sidebar .black-sidebar ul li a img{
-
+.main-heading .sidebar .black-sidebar ul li a img {
   height: 15px;
   vertical-align: middle;
- 
 }
 
 .main-heading .sidebar .black-sidebar ul li {
-
   list-style: none;
-
-
 }
 
 
@@ -281,73 +231,25 @@ padding-right: 20px;
   background-color:  #f7692d;
   padding: 10px 25px;
   margin-bottom: 2px;
-  
 }
 
-.main-heading .sidebar .orange-sidebar ul li a span{
+.main-heading .sidebar .orange-sidebar ul li a span {
   color: #ededed;
   font-size: 12px;
   line-height: 10px;
   padding-left:5px ;
-
 }
 
 
-.main-heading .sidebar .orange-sidebar ul li a img{
-
+.main-heading .sidebar .orange-sidebar ul li a img {
   height: 15px;
   vertical-align: middle;
- 
 }
 
 .main-heading .sidebar .orange-sidebar ul li {
-
   list-style: none;
-
-
 }
 
-
-
-
-/* .main-heading .sidebar ul li span{
-  background-color: black;
-  display: block;
-  padding: 10px 20px;
-  margin-bottom: 2px;
-}
-
-.main-heading .sidebar ul li  {
- 
-  list-style: none;
-  margin-bottom: 2px;
-  
-}
-
-.main-heading .sidebar ul li img{
-vertical-align: middle;
-height: 25px;
-
-
-}
-.main-heading .sidebar ul a{
-
-  text-decoration: none;
-
-}
-
-.main-heading .sidebar ul a li span {
- 
- 
-  color: #ededed;
-  margin-left: 15px;
-  font-size: 12px;
-} */
-
-
-
-
-/* css code ends here for orange section */
 
 
 
@@ -355,35 +257,32 @@ height: 25px;
 
 
 /* Featured Project starts from here */
-.featured-project{
+.featured-project {
   margin-bottom: 80px;
   border-bottom: 1px solid #ddd;
-  width: 530px;
-
+  width: fit-content;
 }
-.featured-project .residential{
+
+
+.featured-project .residential {
   float: left;
 } 
 
-
-.featured-project .commercial{
+.featured-project .commercial {
   float: left;
   border-left: 2px solid #ddd;
-  margin-left:100px;
+  margin-left:20px;
 }
 
-.featured-project .residential .residential-head{
+.featured-project .residential .residential-head {
   float: left;
 }
 
-
-.featured-project .commercial .commercial-head{
+.featured-project .commercial .commercial-head {
   float: left;
 }
 
-
-.featured-project .project-head{
-
+.featured-project .project-head {
   float: left;
   vertical-align: middle;
   font-weight: bold;
@@ -393,8 +292,7 @@ height: 25px;
 }
 
 
-.featured-project .residential .residential-head{
-
+.featured-project .residential .residential-head {
   float: left;
   background: url("images/residential.png");
   background-repeat: no-repeat;
@@ -402,18 +300,16 @@ height: 25px;
   width: 24px;
   margin-left: 20px;
   vertical-align: middle;
-  
 }
 
 
-.featured-project .residential span{
+.featured-project .residential span {
   float: left;
-  margin-left: 30px;
+  margin-left: 11px;
   padding-top: 10px;
- 
 }
 
-.featured-project .residential .residential-head:hover{
+.featured-project .residential:hover .residential-head {
   background: url("images/residential.png");
   background-repeat: no-repeat;
   height: 40px;
@@ -422,20 +318,21 @@ height: 25px;
   color:#2af6fa;
 }
 
+.featured-project .residential:hover span {
+  color:#2af6fa;
+}
 
-.featured-project .commercial .commercial-head{
-  float: left;
+
+.featured-project .commercial .commercial-head {
   background: url("images/commercial.png") -24px 6px;
   background-repeat: no-repeat;
   width: 24px;
   height: 40px; 
   margin-left: 20px;
-
-   
 }
 
 
-.featured-project .commercial .commercial-head:hover{
+.featured-project .commercial:hover .commercial-head {
   float: left;
   background: url("images/commercial.png") 0 6px;
   background-repeat: no-repeat;
@@ -443,19 +340,16 @@ height: 25px;
   width: 24px;    
   margin-left: 20px;
   color:#2af6fa;
-
 }
 
-.featured-project .commercial span{
+.featured-project .commercial span {
   float: left;
-  margin-left: 30px;
+  margin-left: 8px;
   padding-top: 12px;
-
 }
 
-.featured-project .commercial span:hover{
+.featured-project .commercial:hover span {
  color: #2af6fa;
-
 }
 
 /* Featured Project ends here */
@@ -463,21 +357,24 @@ height: 25px;
 
 
 /* Card-Option starts from here */
-.card-option{
-  margin-bottom: 70px;
+.card-option {
+ margin: 70px -3px;
+ 
 }
 
-
-.card-option .card{
+.card-option .card {
  float: left;
  width: 25%;
  height: 320px;
  position: relative;
+ padding: 0 3px;
 }
 
+.card-option .card .card-image {
+  width: 100%;
+}
 
-
-.card-option .card .heading{
+.card-option .card .heading {
  position: absolute;
  top: 0;
  width: 246px;
@@ -489,9 +386,7 @@ height: 25px;
  text-align: center;
 }
 
-
-
-.card-option .card .heading small{
+.card-option .card .heading small {
 color:#949393;
 font-style: italic;
 padding-left:2px;
@@ -499,18 +394,16 @@ padding-left:2px;
 
 .overlay img {
    position: absolute; 
-   width: 100%;
+   width: 246px;
    height:100%;
    display: none;
-   top:0;   
-    
+   top:0;       
  }
 
-.card-option .card:hover .overlay img{ 
+.card-option .card:hover .overlay img { 
    display: block;
    opacity: 0.9;
  }
-
 
  .card-option .card:hover .heading {
    display: none;
@@ -520,19 +413,14 @@ padding-left:2px;
   display: none;
 }
 
-
-.card-option .card .play{
+.card-option .card .play {
  transform: rotate(90deg);
  position: absolute;
  top: 60px;
  left: 23px;
- height: 16px;
-
+ height: 13px;
+ width: 8px;
 }
-
-
-
-
 /* Card-Option ends from here */
 
 
@@ -540,109 +428,60 @@ padding-left:2px;
 /* About Us starts from here */
 
 .Aboutus {
-
   margin-bottom: 100px;
-
 }
 
 .Aboutus h2 {
-
   margin-bottom: 20px;
-  
 }
 
 /* left container starts from here */
 
-.leftcontainer {
-
-  /* border-style: outset; */
+.leftside {
   float: left;
   width: 60%;
   padding-right: 20px;
-
-
-
 }
 
-.leftcontainer .aboutimage {
-
+.leftside .aboutimage {
   float: left;
   width: 40%;
   margin-bottom: 10px;
-
 }
 
-.leftcontainer .aboutheading {
-
+.leftside .aboutheading {
   float: left;
   width: 60%;
-
 }
 
-.leftcontainer .aboutheading .paraone {
-
+.leftside .aboutheading .paraone {
   font-size: 20px;
   margin-left: 22px;
   margin-bottom: 10px;
-  /* letter-spacing: 5px; */
   line-height: 1.6;
-
 }
 
-.leftcontainer .para {
-
+.leftside .para {
   color: #515152;
   font-size: 14px;
-  /* word-wrap: break-word; */
   text-align: justify;
-
 }
 
-.leftcontainer .aboutheading .paratwo {
-
+.leftside .aboutheading .paratwo {
   color: #6bb8ff;
   margin-left: 20px;
-
-
 }
 
 
 /* left container style ends here */
 
-
-/* mid container style start from here */
-
-/* .midcontainer{
-
-  float: left;
-
-}
-
-
-.midcontainer .vertical hr{
-
-  border-left: 4px solid black;
-  float: left; 
-  height: 500px;
-
-} */
-
-/* mid container ends here */
-
-
-
-
 /* right container style starts from here */
 
-.rightcontainer {
-
+.rightside {
   border-left: 4px solid #dee1e3;
   float: left;
   height: 300px;
   width: 40%;
-
-
-
 }
 
 /* .rightcontainer .vertical {
@@ -650,26 +489,23 @@ padding-left:2px;
 
   } */
 
-.rightcontainer .imagetitle {
+.rightside .imagetitle {
   margin-top: 15px;
 }
 
 
-.rightcontainer .imagetitle img {
+.rightside .imagetitle img {
   float: left;
   margin-top: 3px;
-
 }
 
-
-
-.rightcontainer .imagetitle .p1 {
+.rightside .imagetitle .p1 {
   float: left;
   margin-left: 20px;
   text-align: justify;
 }
 
-.rightcontainer .info1 {
+.rightside .info1 {
   padding: 10px;
   margin-left: 14px;
   color: #515152;
@@ -706,7 +542,6 @@ padding-left:2px;
 
 
 .footer .testimonial .testimonial-para{
-
  padding-top: 20px;
  font-size: 12px;
  color: #8a8a97;
@@ -740,13 +575,12 @@ margin-top: 13px;
 .footer .testimonial .last .btn-image .left a img{
   float: left;
   border-radius: 65%;
-
 }
 
 .footer .testimonial .last .btn-image .right{
   float: left; 
   margin-left: 5px;
-  }
+}
 
 
 /* Testimonials ends from here */
@@ -759,8 +593,6 @@ margin-top: 13px;
   padding-left:65px;
   padding-top:50px;
   width: 25%;
-
-
 }
 
 .footer .quick-links .heading{
@@ -784,14 +616,14 @@ margin-top: 13px;
  float: left;
  background-image: url('images/play-small-grey.png');
  background-repeat: no-repeat;
- 
 }
 
 .footer .quick-links .links a .images:hover{
   float: left;
   background-image: url('images/play-small.png');
   background-repeat: no-repeat;
- }
+}
+
 
 .footer .quick-links .links a .images .image-heading{
   float: left;
@@ -799,11 +631,11 @@ margin-top: 13px;
   font-size: 14px;
   line-height: 10px;
   color: #8a8a97;
- }
+}
 
  .footer .quick-links .links a .images .image-heading:hover{
   color:white;
- }
+}
 
  /* Quick-Links ends here */
  
@@ -815,7 +647,6 @@ margin-top: 13px;
   padding-top: 45px;
   padding-left: 50px;
   width: 20%;
-
 }
 
 .footer .address .heading{
@@ -875,7 +706,7 @@ margin-top: 13px;
 
 .footer .subscribe .social {
   font-size: 14px;
-  }
+}
 
 .footer .subscribe .social .social-icon{
 margin-left: -40px;
@@ -884,7 +715,6 @@ font-size: 14px;
 
 
 .footer .subscribe .social .social-icon ul li{
-
   list-style: none;
   float: left;
 }
