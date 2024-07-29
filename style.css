@@ -315,11 +315,11 @@ padding-right: 20px;
   height: 40px;
   background-position: -24px 0px; 
   margin-left: 20px;
-  color:#2af6fa;
+  color:#53c7fc;
 }
 
 .featured-project .residential:hover span {
-  color:#2af6fa;
+  color:#53c7fc;
 }
 
 
@@ -339,7 +339,7 @@ padding-right: 20px;
   height: 40px;
   width: 24px;    
   margin-left: 20px;
-  color:#2af6fa;
+  color:#53c7fc;
 }
 
 .featured-project .commercial span {
@@ -349,7 +349,7 @@ padding-right: 20px;
 }
 
 .featured-project .commercial:hover span {
- color: #2af6fa;
+ color:#53c7fc;
 }
 
 /* Featured Project ends here */
@@ -358,8 +358,7 @@ padding-right: 20px;
 
 /* Card-Option starts from here */
 .card-option {
- margin: 70px -3px;
- 
+ margin: 70px -3px; 
 }
 
 .card-option .card {
@@ -512,7 +511,6 @@ padding-left:2px;
   text-align: justify;
 }
 
-
 /* right container style ends here */
 
 
@@ -582,8 +580,7 @@ margin-top: 13px;
   margin-left: 5px;
 }
 
-
-/* Testimonials ends from here */
+/* Testimonials ends here */
 
 
 /* Quick-Links starts from here */
