@@ -19,11 +19,11 @@ Welcome to the **Dream Developers** website! It is built **entirely using HTML a
    git clone https://github.com/TanvirApon/Project-1
    
 ## 🎨 Usage
-    Modify home.html to update content.
-    Customize styles in style.css.
+    - Modify index.html to update content.
+    - Customize styles in style.css.
     
 ## 🤝 Contribution
-Feel free to fork the repository and submit pull requests. Any contributions are welcome!
+- Feel free to fork the repository and submit pull requests. Any contributions are welcome!
 📜 License
 
 This project is open-source and available under the MIT License.
