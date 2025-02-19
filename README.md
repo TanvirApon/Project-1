@@ -24,6 +24,6 @@ Welcome to the **Dream Developers** website! It is built **entirely using HTML a
     
 ## 🤝 Contribution
 - Feel free to fork the repository and submit pull requests. Any contributions are welcome!
-📜 License
 
-This project is open-source and available under the MIT License.
+## 📜 License
+- This project is open-source and available under the MIT License.
