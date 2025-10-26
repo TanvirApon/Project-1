@@ -2,37 +2,29 @@
 * {
   box-sizing: border-box;
 }
-
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   margin: 0;
 }
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .container {
   width: 1000px;
   margin: 0 auto;
 }
 /* Default css ends here */
-
-
 /* navbar section starts from here */
 .navbar {
   background-color: black;
   position: relative;
 }
-
 .logo-container {
  position: relative;
 }
-
 .navbar .clearfix a {
   text-decoration: none;
   color: white;
@@ -44,37 +36,28 @@ body {
  position: relative;
  width: 250px;
 }
-
 .navbar .clearfix .logo .logo-head {
   float: left;
   position: absolute;
   top: 50px;
   left: 25px;
 }
-
 .navbar .clearfix .logo .logo-head .logo-bold {
   font-weight:bold;
   float: left;
 }
-
-
 .navbar .clearfix .logo .logo-head .non-bold {
   float: left;
 }
-
 .navbar .clearfix .sub-nav {
  float: left;
  width: 500px;
  margin-top: 20px;
  /* margin-left: 215px; */
 }
-
-
 .navbar .clearfix .sub-nav .nav-items li {  
   list-style-type: none;
 }
-
-
 .navbar .clearfix .sub-nav .nav-items li a {
   display: block;
   float: left;
@@ -83,11 +66,9 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .navbar .clearfix .sub-nav .nav-items li a:hover {
   background-color: #f7692d;
 }
-
 .navbar .num-container {
   color: white;
   float: left;
@@ -98,18 +79,15 @@ body {
   padding: 15px;
   align-items: center;
 }
-
 .navbar .num-container img{
   float: left;
   align-items: center;
   height: 16px;
 }
-
 .navbar .num-container .number {
   float: left;
   font-weight: bold; 
 }
-
 .navbar .num-container .number a{
   float: left;
   font-weight: bold; 
@@ -119,14 +97,11 @@ body {
 }
 /* navbar section ends here */
 
-
-
 /* slider starts from here */
 
 .slider {
   width: 100%;
 }
-
 .slider-image {
   background: url('images/slider-bg.jpg') no-repeat ; 
   background-size: 100% 100%;
@@ -134,7 +109,6 @@ body {
   position: relative;
   margin-bottom: 70px;
 }
-
 .slider-image .para {
   position: absolute;
   top: 120px;
@@ -146,32 +120,24 @@ body {
   padding: 20px;
   font-size: 12px;
 }
-
 .slider-image .container .para .slider-para-header {
   margin-bottom: 10px;
   color: black;
   font-weight: bold;
   font-size: 14px;
 }
-
 .slider-image .para .slider-para .clearfix .icon {
   float: right;
   padding-top: 10px;
 }
-
 .slider .para .slider-para .clearfix a {
   text-decoration: none;
 }
 /* slider ends here */
-
-
-
 /* main-heading section starts from here */
-
 .main-heading {
  position: relative;
 }
-
 .main-heading .intro {
   text-align: center;
   font-weight: bold;
@@ -179,8 +145,6 @@ body {
   padding-top: 30px;
   margin-bottom: 15px;
 }
-
-
 .main-heading .intro-para {
 margin-bottom: 120px;
 text-align: center; 
@@ -188,18 +152,15 @@ color: #78827a;
 font-size: 16px;
 padding-right: 20px;
 }
-
 .main-heading .sidebar {
  position: absolute;
  right: 0;
  top: -84px;
  margin-bottom: 50px;
 }
-
 .main-heading .sidebar .black-sidebar {
   margin-bottom: 40px;
 }
-
 .main-heading .sidebar .black-sidebar ul li a  {
   text-decoration: none;
   display: block;
@@ -207,54 +168,39 @@ padding-right: 20px;
   padding: 10px 25px;
   margin-bottom: 2px;
 }
-
 .main-heading .sidebar .black-sidebar ul li a span {
   color: #ededed;
   font-size: 12px;
   line-height: 10px;
   padding-left:5px ;
 }
-
-
 .main-heading .sidebar .black-sidebar ul li a img {
   height: 15px;
   vertical-align: middle;
 }
-
 .main-heading .sidebar .black-sidebar ul li {
   list-style: none;
 }
-
-
 .main-heading .sidebar .orange-sidebar ul li a  {
- 
   text-decoration: none;
   display: block;
   background-color:  #f7692d;
   padding: 10px 25px;
   margin-bottom: 2px;
 }
-
 .main-heading .sidebar .orange-sidebar ul li a span {
   color: #ededed;
   font-size: 12px;
   line-height: 10px;
   padding-left:5px ;
 }
-
-
 .main-heading .sidebar .orange-sidebar ul li a img {
   height: 15px;
   vertical-align: middle;
 }
-
 .main-heading .sidebar .orange-sidebar ul li {
   list-style: none;
 }
-
-
-
-
 /* main-heading section ends here */
 
 
@@ -264,26 +210,20 @@ padding-right: 20px;
   border-bottom: 1px solid #ddd;
   width: fit-content;
 }
-
-
 .featured-project .residential {
   float: left;
 } 
-
 .featured-project .commercial {
   float: left;
   border-left: 2px solid #ddd;
   margin-left:20px;
 }
-
 .featured-project .residential .residential-head {
   float: left;
 }
-
 .featured-project .commercial .commercial-head {
   float: left;
 }
-
 .featured-project .project-head {
   float: left;
   font-weight: bold;
@@ -292,8 +232,6 @@ padding-right: 20px;
   padding-right: 25px;
   line-height: 35px;
 }
-
-
 .featured-project .residential .residential-head {
   float: left;
   background: url("images/residential.png");
@@ -303,14 +241,11 @@ padding-right: 20px;
   margin-left: 20px;
   vertical-align: middle;
 }
-
-
 .featured-project .residential span {
   float: left;
   margin-left: 11px;
   padding-top: 10px;
 }
-
 .featured-project .residential:hover .residential-head {
   background: url("images/residential.png");
   background-repeat: no-repeat;
@@ -319,12 +254,9 @@ padding-right: 20px;
   margin-left: 20px;
   color:#53c7fc;
 }
-
 .featured-project .residential:hover span {
   color:#53c7fc;
 }
-
-
 .featured-project .commercial .commercial-head {
   background: url("images/commercial.png") -24px 6px;
   background-repeat: no-repeat;
@@ -332,8 +264,6 @@ padding-right: 20px;
   height: 40px; 
   margin-left: 20px;
 }
-
-
 .featured-project .commercial:hover .commercial-head {
   float: left;
   background: url("images/commercial.png") 0 6px;
@@ -343,7 +273,6 @@ padding-right: 20px;
   margin-left: 20px;
   color:#53c7fc;
 }
-
 .featured-project .commercial span {
   float: left;
   margin-left: 8px;
@@ -355,14 +284,10 @@ padding-right: 20px;
 }
 
 /* Featured Project ends here */
-
-
-
 /* Card-Option starts from here */
 .card-option {
  margin: 70px -3px; 
 }
-
 .card-option .card {
  float: left;
  width: 25%;
@@ -370,11 +295,9 @@ padding-right: 20px;
  position: relative;
  padding: 0 3px;
 }
-
 .card-option .card .card-image {
   width: 100%;
 }
-
 .card-option .card .heading {
  position: absolute;
  top: 0;
@@ -386,13 +309,11 @@ padding-right: 20px;
  font-weight: bold;
  text-align: center;
 }
-
 .card-option .card .heading small {
 color:#949393;
 font-style: italic;
 padding-left:2px;
 }
-
 .overlay img {
    position: absolute; 
    width: 246px;
@@ -400,20 +321,16 @@ padding-left:2px;
    display: none;
    top:0;       
  }
-
 .card-option .card:hover .overlay img { 
    display: block;
    opacity: 0.9;
  }
-
  .card-option .card:hover .heading {
    display: none;
 }
-
 .card-option .card:hover .play {
   display: none;
 }
-
 .card-option .card .play {
  transform: rotate(90deg);
  position: absolute;
@@ -424,100 +341,76 @@ padding-left:2px;
 }
 /* Card-Option ends from here */
 
-
-
 /* About Us starts from here */
-
 .Aboutus {
   margin-bottom: 100px;
 }
-
 .Aboutus h2 {
   margin-bottom: 20px;
 }
-
 /* left container starts from here */
-
 .leftside {
   float: left;
   width: 60%;
   padding-right: 20px;
 }
-
 .leftside .aboutimage {
   float: left;
   width: 40%;
   margin-bottom: 10px;
 }
-
 .leftside .aboutheading {
   float: left;
   width: 60%;
 }
-
 .leftside .aboutheading .paraone {
   font-size: 20px;
   margin-left: 22px;
   margin-bottom: 10px;
   line-height: 1.6;
 }
-
 .leftside .para {
   color: #515152;
   font-size: 14px;
   text-align: justify;
 }
-
 .leftside .aboutheading .paratwo {
   color: #6bb8ff;
   margin-left: 20px;
 }
-
-
 /* left container style ends here */
 
 /* right container style starts from here */
-
 .rightside {
   border-left: 4px solid #dee1e3;
   float: left;
   height: 300px;
   width: 40%;
 }
-
 /* .rightcontainer .vertical {
-
-
   } */
-
 .rightside .imagetitle {
   margin-top: 15px;
 }
-
-
 .rightside .imagetitle img {
   float: left;
   margin-top: 3px;
 }
-
 .rightside .imagetitle .p1 {
   float: left;
   margin-left: 20px;
   text-align: justify;
 }
-
 .rightside .info1 {
   padding: 10px;
   margin-left: 14px;
   color: #515152;
   text-align: justify;
 }
-
 /* right container style ends here */
 
 
 /* About us Ends here */
-
 
 /* footer starts from here */
 
@@ -525,28 +418,18 @@ padding-left:2px;
   background-image: url('images/footer-image.png'); 
   height: 340px;
 }
-
 .footer-card{
-  
-  
-
-
 }
-
-
 /* Testimonials starts from here */
 .footer .testimonial{
   float: left;
   width: 25%; 
 }
-
 .footer .testimonial .head{
   color: white;
   padding-top: 50px;
   font-weight: bold;
 }
-
-
 .footer .testimonial .testimonial-para{
  padding-top: 35px;
  font-size: 12px;
@@ -555,42 +438,32 @@ padding-left:2px;
  margin-bottom: 10px;
  line-height:20px;
 }
-
 .footer .testimonial .ketty{
   color: white;
   font-size: 12px;
 }
-
 .footer .testimonial .last hr{
 float: left;
 width: 175px;
 color: #8a8a97;
 margin-top: 13px;
 }
-
 .footer .testimonial .last .btn-image {
   float: right;
 }
-
 .footer .testimonial .last .btn-image .left{
  margin-left: 8px;
  float: left;
-
 }
-
 .footer .testimonial .last .btn-image .left a img{
   float: left;
   border-radius: 65%;
 }
-
 .footer .testimonial .last .btn-image .right{
   float: left; 
   margin-left: 5px;
 }
-
 /* Testimonials ends here */
-
-
 /* Quick-Links starts from here */
 .footer .quick-links{
   float: left;
@@ -599,37 +472,29 @@ margin-top: 13px;
   padding-top:50px;
   width: 25%;
 }
-
 .footer .quick-links .heading{
   float: left;
   line-height: 34px;
 }
-
 .footer .quick-links .quick-image{
   float: left;
   vertical-align: middle;
   padding-left: 10px;
 }
-
-
 .footer .quick-links .links{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .footer .quick-links .links a .images{
  float: left;
  background-image: url('images/play-small-grey.png');
  background-repeat: no-repeat;
 }
-
 .footer .quick-links .links a .images:hover{
   float: left;
   background-image: url('images/play-small.png');
   background-repeat: no-repeat;
 }
-
-
 .footer .quick-links .links a .images .image-heading{
   float: left;
   padding-left: 10px;
@@ -637,14 +502,10 @@ margin-top: 13px;
   line-height: 10px;
   color: #8a8a97;
 }
-
  .footer .quick-links .links a .images .image-heading:hover{
   color:white;
 }
-
  /* Quick-Links ends here */
- 
-
  /* Address starts from here */
 .footer .address{
   float: left;
@@ -652,35 +513,28 @@ margin-top: 13px;
   padding: 45px;
   width: 25%;
 }
-
 .footer .address .heading{
   float: left;
   line-height: 34px;
 }
-
 .footer .address  .address-image{
   float: left;
   vertical-align: middle;
   padding-left: 10px;
   margin-bottom: 20px;
 }
-
 .footer .address  .address-details .address-heading{
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
 }
-
 .footer .address  .address-details .address-para{
   margin-bottom: 20px;
   font-size: 12px;
 }
-
 .footer .address  .contact-details {
   font-size: 12px;
 }
-
-
  /* Subscribe starts from here */
 .footer .subscribe{
   float:left;
@@ -689,7 +543,6 @@ margin-top: 13px;
   padding-left: 50px;
   width: 25%;
 }
-
 .footer .subscribe input{
   margin-top: 20px;
   margin-bottom: 10px;
@@ -698,7 +551,6 @@ margin-top: 13px;
   padding:10px;
   text-align: left;
 }
-
 .footer .subscribe a button{
   background-color: aqua;
   border-radius: 2px;
@@ -708,22 +560,17 @@ margin-top: 13px;
   border: none;
   margin-bottom: 45px;
 }
-
 .footer .subscribe .social {
   font-size: 14px;
 }
-
 .footer .subscribe .social .social-icon{
 margin-left: -40px;
 font-size: 14px;
 }
-
-
 .footer .subscribe .social .social-icon ul li{
   list-style: none;
   float: left;
 }
-
 .footer .subscribe .social .social-icon ul li .fb{
   float: left;
   text-decoration: none;
@@ -734,7 +581,6 @@ font-size: 14px;
   display: block;
   width: 30px;
 }
-
 .footer .subscribe .social .social-icon ul li .fb:hover{
   float: left;
   text-decoration: none;
@@ -745,7 +591,6 @@ font-size: 14px;
   display: block;
   width: 30px;
 }
-
 .footer .subscribe .social .social-icon ul li .tw{
   float: left;
   text-decoration: none;
@@ -757,7 +602,6 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
 .footer .subscribe .social .social-icon ul li .tw:hover{
   float: left;
   text-decoration: none;
@@ -769,7 +613,6 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
 .footer .subscribe .social .social-icon ul li .lk{
   float: left;
   text-decoration: none;
@@ -781,7 +624,6 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
 .footer .subscribe .social .social-icon ul li .lk:hover{
   float: left;
   text-decoration: none;
@@ -793,7 +635,6 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
 .footer .subscribe .social .social-icon ul li .em{
   float: left;
   text-decoration: none;
@@ -805,7 +646,6 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
 .footer .subscribe .social .social-icon ul li .em:hover{
   float: left;
   text-decoration: none;
@@ -817,8 +657,6 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
-
 .footer .subscribe .social .social-icon ul li .ed{
   float: left;
   text-decoration: none;
@@ -830,7 +668,6 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
 .footer .subscribe .social .social-icon ul li .ed:hover{
   float: left;
   text-decoration: none;
@@ -842,5 +679,4 @@ font-size: 14px;
   width: 30px;
   margin-left: 3px;
 }
-
 /* footer ends here */
